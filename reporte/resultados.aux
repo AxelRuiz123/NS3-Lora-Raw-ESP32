@@ -1,0 +1,79 @@
+\relax 
+\providecommand \babel@aux [2]{\global \let \babel@toc \@gobbletwo }
+\@nameuse{bbl@beforestart}
+\catcode `"\active 
+\catcode `<\active 
+\catcode `>\active 
+\@nameuse{es@quoting}
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\babel@aux{spanish}{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Configuración de la Simulación en ns-3}{2}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Parámetros fijos}{2}{subsection.1.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Parámetros de la simulación raw LoRa (ns-3.47).}}{2}{table.caption.2}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:sim_params}{{1}{2}{Parámetros de la simulación raw LoRa (ns-3.47)}{table.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Airtime por Spreading Factor}{3}{subsection.1.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Airtime y sensibilidad del receptor SX1262 por SF (BW = 125\,kHz, payload = 20\,B, CR = 4/5).}}{3}{table.caption.3}\protected@file@percent }
+\newlabel{tab:airtime}{{2}{3}{Airtime y sensibilidad del receptor SX1262 por SF (BW = 125\,kHz, payload = 20\,B, CR = 4/5)}{table.caption.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Escenarios simulados}{3}{subsection.1.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Matriz de escenarios simulados (1 gateway en todos los casos).}}{3}{table.caption.4}\protected@file@percent }
+\newlabel{tab:scenarios}{{3}{3}{Matriz de escenarios simulados (1 gateway en todos los casos)}{table.caption.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Resultados de la Simulación}{3}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Barrido de Spreading Factor}{3}{subsection.2.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Barrido de SF (500 nodos, 1 GW, 300\,s heartbeat).}}{3}{table.caption.5}\protected@file@percent }
+\newlabel{tab:sf_sweep}{{4}{3}{Barrido de SF (500 nodos, 1 GW, 300\,s heartbeat)}{table.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Efecto del SF sobre PDR, colisiones, consumo diario (escala log) y vida útil de la batería. Cada incremento en SF dobla el airtime, saturando el canal y multiplicando el consumo energético.}}{4}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:sf_sweep}{{1}{4}{Efecto del SF sobre PDR, colisiones, consumo diario (escala log) y vida útil de la batería. Cada incremento en SF dobla el airtime, saturando el canal y multiplicando el consumo energético}{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Barrido de intervalo de transmisión}{4}{subsection.2.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Efecto del intervalo heartbeat (SF7, 1 GW, 500 nodos).}}{4}{table.caption.7}\protected@file@percent }
+\newlabel{tab:hb_sweep}{{5}{4}{Efecto del intervalo heartbeat (SF7, 1 GW, 500 nodos)}{table.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Relación entre intervalo de transmisión, PDR, colisiones, consumo diario y vida útil estimada. A mayor intervalo: menor carga del canal, mayor PDR y mayor vida útil.}}{5}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:hb_sweep}{{2}{5}{Relación entre intervalo de transmisión, PDR, colisiones, consumo diario y vida útil estimada. A mayor intervalo: menor carga del canal, mayor PDR y mayor vida útil}{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Energía y modelo solar}{5}{subsection.2.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Balance energético solar vs.\ consumo por SF (escala log). Para SF7–SF9 la cosecha solar supera el consumo por un factor $> 10$. Solo SF12 es solar-inviable con un panel pequeño.}}{6}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:solar}{{3}{6}{Balance energético solar vs.\ consumo por SF (escala log). Para SF7–SF9 la cosecha solar supera el consumo por un factor $> 10$. Solo SF12 es solar-inviable con un panel pequeño}{figure.caption.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Desglose analítico de energía diaria por estado del nodo. En SF7, el 84\,\% del consumo corresponde a TX y solo el 16\,\% a sleep. En SF12 el tiempo en TX es tan elevado que domina completamente.}}{7}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:energy_breakdown}{{4}{7}{Desglose analítico de energía diaria por estado del nodo. En SF7, el 84\,\% del consumo corresponde a TX y solo el 16\,\% a sleep. En SF12 el tiempo en TX es tan elevado que domina completamente}{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Distribución del consumo por nodo en 1 hora de simulación. SF7 ($\sigma = 0.018$\,J, CV = 6.2\,\%) muestra alta uniformidad entre nodos, lo que facilita el dimensionamiento homogéneo del sistema. SF12 presenta mayor dispersión ($\sigma = 0.417$\,J) por los patrones de colisión dependientes de la posición.}}{7}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:energy_dist}{{5}{7}{Distribución del consumo por nodo en 1 hora de simulación. SF7 ($\sigma = 0.018$\,J, CV = 6.2\,\%) muestra alta uniformidad entre nodos, lo que facilita el dimensionamiento homogéneo del sistema. SF12 presenta mayor dispersión ($\sigma = 0.417$\,J) por los patrones de colisión dependientes de la posición}{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Vida útil con degradación de batería LiPo}{7}{subsection.2.4}\protected@file@percent }
+\newlabel{eq:kww}{{8}{8}{Vida útil con degradación de batería LiPo}{equation.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Curva de degradación KWW vs.\ lineal. Los puntos rojos son los 7 escenarios simulados en ns-3. El modelo KWW captura el efecto \emph  {knee} real de las celdas LiPo.}}{8}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:degrade_curve}{{6}{8}{Curva de degradación KWW vs.\ lineal. Los puntos rojos son los 7 escenarios simulados en ns-3. El modelo KWW captura el efecto \emph {knee} real de las celdas LiPo}{figure.caption.12}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Autonomía sin recarga solar a lo largo de la vida del nodo (SF7, 300\,s, modelo KWW).}}{8}{table.caption.13}\protected@file@percent }
+\newlabel{tab:degrade}{{6}{8}{Autonomía sin recarga solar a lo largo de la vida del nodo (SF7, 300\,s, modelo KWW)}{table.caption.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Vida útil estimada para los 14 escenarios: batería nueva (día 0), EOL comercial 80\,\% (día 500) y año 5 (día 1\,825). La configuración SF7/1\,200\,s supera los 12 años con batería nueva.}}{9}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:lifetime_all}{{7}{9}{Vida útil estimada para los 14 escenarios: batería nueva (día 0), EOL comercial 80\,\% (día 500) y año 5 (día 1\,825). La configuración SF7/1\,200\,s supera los 12 años con batería nueva}{figure.caption.14}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Análisis de la Escalabilidad}{9}{section.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Escalabilidad: PDR, colisiones y energía vs.\ densidad de nodos (SF7, 1 GW, 300\,s heartbeat).}}{9}{table.caption.15}\protected@file@percent }
+\newlabel{tab:scalability}{{7}{9}{Escalabilidad: PDR, colisiones y energía vs.\ densidad de nodos (SF7, 1 GW, 300\,s heartbeat)}{table.caption.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Escalabilidad de la red LoRa raw. PDR y colisión varían linealmente con la densidad. La energía por nodo es completamente invariante: cada nodo consume lo mismo independientemente de cuántos vecinos tenga.}}{10}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:scalability}{{8}{10}{Escalabilidad de la red LoRa raw. PDR y colisión varían linealmente con la densidad. La energía por nodo es completamente invariante: cada nodo consume lo mismo independientemente de cuántos vecinos tenga}{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Mapa de calor de vida útil estimada (días) en función del SF y el intervalo heartbeat. La región verde (SF7, heartbeat $\geq 600$\,s) supera los 3\,000 días. Cualquier combinación con SF $\geq 10$ cae en zona roja incluso con heartbeat de 300\,s.}}{11}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:heatmap}{{9}{11}{Mapa de calor de vida útil estimada (días) en función del SF y el intervalo heartbeat. La región verde (SF7, heartbeat $\geq 600$\,s) supera los 3\,000 días. Cualquier combinación con SF $\geq 10$ cae en zona roja incluso con heartbeat de 300\,s}{figure.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Comparación de PDR en los tres barridos principales. El heartbeat y el SF son los factores de mayor impacto; la densidad de nodos tiene un efecto secundario.}}{11}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:pdr_comparison}{{10}{11}{Comparación de PDR en los tres barridos principales. El heartbeat y el SF son los factores de mayor impacto; la densidad de nodos tiene un efecto secundario}{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Tabla resumen visual de los 14 escenarios, coloreados por PDR. Verde: PDR $\geq 90$\,\%, Amarillo: 70--90\,\%, Rojo: $<70$\,\%.}}{12}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:summary_table}{{11}{12}{Tabla resumen visual de los 14 escenarios, coloreados por PDR. Verde: PDR $\geq 90$\,\%, Amarillo: 70--90\,\%, Rojo: $<70$\,\%}{figure.caption.19}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Estimación de Costos Energéticos}{12}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Energía por paquete transmitido}{12}{subsection.4.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Costo energético por paquete transmitido y por paquete \emph  {entregado exitosamente} (500 nodos, 1 GW, 300\,s heartbeat).}}{12}{table.caption.20}\protected@file@percent }
+\newlabel{tab:energy_per_pkt}{{8}{12}{Costo energético por paquete transmitido y por paquete \emph {entregado exitosamente} (500 nodos, 1 GW, 300\,s heartbeat)}{table.caption.20}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Eficiencia energética: J por bit entregado}{13}{subsection.4.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Eficiencia energética por bit entregado exitosamente.}}{13}{table.caption.21}\protected@file@percent }
+\newlabel{tab:energy_per_bit}{{9}{13}{Eficiencia energética por bit entregado exitosamente}{table.caption.21}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Energía desperdiciada por colisiones}{13}{subsection.4.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Energía diaria desperdiciada por colisiones por nodo (500 nodos, 1 GW, 300\,s heartbeat, 308 paquetes/día).}}{13}{table.caption.22}\protected@file@percent }
+\newlabel{tab:wasted_energy}{{10}{13}{Energía diaria desperdiciada por colisiones por nodo (500 nodos, 1 GW, 300\,s heartbeat, 308 paquetes/día)}{table.caption.22}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Presupuesto energético diario por nodo}{14}{subsection.4.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces Desglose del presupuesto energético diario por nodo (SF7, 300\,s heartbeat). Valores calculados analíticamente y verificados en simulación.}}{14}{table.caption.23}\protected@file@percent }
+\newlabel{tab:energy_budget}{{11}{14}{Desglose del presupuesto energético diario por nodo (SF7, 300\,s heartbeat). Valores calculados analíticamente y verificados en simulación}{table.caption.23}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Desglose analítico de energía diaria por SF. En SF7 la transmisión representa el 84\,\% del consumo total; en SF12 domina completamente ($>$99.9\,\%).}}{14}{figure.caption.24}\protected@file@percent }
+\newlabel{fig:energy_budget}{{12}{14}{Desglose analítico de energía diaria por SF. En SF7 la transmisión representa el 84\,\% del consumo total; en SF12 domina completamente ($>$99.9\,\%)}{figure.caption.24}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Consumo energético total de la red}{14}{subsection.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Impacto del heartbeat en el presupuesto energético}{15}{subsection.4.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces Presupuesto energético por nodo según intervalo heartbeat (SF7, 500 nodos). La energía de sleep permanece prácticamente constante porque el duty cycle TX nunca supera el 0.2\,\%.}}{15}{table.caption.25}\protected@file@percent }
+\newlabel{tab:energy_heartbeat}{{12}{15}{Presupuesto energético por nodo según intervalo heartbeat (SF7, 500 nodos). La energía de sleep permanece prácticamente constante porque el duty cycle TX nunca supera el 0.2\,\%}{table.caption.25}{}}
+\gdef \@abspage@last{16}

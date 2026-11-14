@@ -1,0 +1,26 @@
+
+============================================================
+  LoRa RAW — Config SF8  |  SF8  |  1 GW  |  300 s heartbeat  |  500 nodos
+  Airtime: 102.9 ms  |  Sensibilidad: -126.0 dBm
+  Batería: 13320.0 J  (100.0% capacidad  |  día 0 de vida)
+============================================================
+
+--- Estadísticas de Paquetes (Raw LoRa PHY) ---
+Paquetes enviados     : 6428
+Paquetes recibidos    : 4930
+PDR                   : 76.70 %
+Tasa de colisión      : 13.38 %
+Bajo sensibilidad     : 0.00 %
+
+--- Estadísticas de Energía (por nodo, 3600.00 s) ---
+Avg consumido/nodo    : 0.48717 J
+Desv. estándar        : 0.03257 J
+Min / Max             : 0.45784 / 0.59491 J
+Tasa diaria estimada  : 11.69218 J/día
+Vida útil estimada    : 1139.2 días
+Nodos agotados        : 0
+============================================================
+
+SUMMARY,SF8,8,1,300,500,6428,4930,76.6957,13.3790,0.4872,0.0326,11.6922,1139.2,0,100.00
+CSV por nodo: energy_raw_SF8.csv
+

@@ -1,0 +1,26 @@
+
+============================================================
+  LoRa RAW — Config SF10  |  SF10  |  1 GW  |  300 s heartbeat  |  500 nodos
+  Airtime: 370.7 ms  |  Sensibilidad: -132.0 dBm
+  Batería: 13320.0 J  (100.0% capacidad  |  día 0 de vida)
+============================================================
+
+--- Estadísticas de Paquetes (Raw LoRa PHY) ---
+Paquetes enviados     : 6428
+Paquetes recibidos    : 2341
+PDR                   : 36.42 %
+Tasa de colisión      : 41.30 %
+Bajo sensibilidad     : 0.00 %
+
+--- Estadísticas de Energía (por nodo, 3600.00 s) ---
+Avg consumido/nodo    : 1.63349 J
+Desv. estándar        : 0.11731 J
+Min / Max             : 1.52783 / 2.02157 J
+Tasa diaria estimada  : 39.20379 J/día
+Vida útil estimada    : 339.8 días
+Nodos agotados        : 0
+============================================================
+
+SUMMARY,SF10,10,1,300,500,6428,2341,36.4188,41.3037,1.6335,0.1173,39.2038,339.8,0,100.00
+CSV por nodo: energy_raw_SF10.csv
+

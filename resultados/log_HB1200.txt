@@ -1,0 +1,26 @@
+
+============================================================
+  LoRa RAW — Config HB1200  |  SF7  |  1 GW  |  1200 s heartbeat  |  500 nodos
+  Airtime: 56.6 ms  |  Sensibilidad: -123.0 dBm
+  Batería: 13320.0 J  (100.0% capacidad  |  día 0 de vida)
+============================================================
+
+--- Estadísticas de Paquetes (Raw LoRa PHY) ---
+Paquetes enviados     : 1928
+Paquetes recibidos    : 1854
+PDR                   : 96.16 %
+Tasa de colisión      : 2.02 %
+Bajo sensibilidad     : 0.00 %
+
+--- Estadísticas de Energía (por nodo, 3600.00 s) ---
+Avg consumido/nodo    : 0.11926 J
+Desv. estándar        : 0.01790 J
+Min / Max             : 0.10314 / 0.17849 J
+Tasa diaria estimada  : 2.86232 J/día
+Vida útil estimada    : 4653.6 días
+Nodos agotados        : 0
+============================================================
+
+SUMMARY,HB1200,7,1,1200,500,1928,1854,96.1618,2.0228,0.1193,0.0179,2.8623,4653.6,0,100.00
+CSV por nodo: energy_raw_HB1200.csv
+

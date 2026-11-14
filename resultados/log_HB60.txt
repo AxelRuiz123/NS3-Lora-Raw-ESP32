@@ -1,0 +1,26 @@
+
+============================================================
+  LoRa RAW — Config HB60  |  SF7  |  1 GW  |  60 s heartbeat  |  500 nodos
+  Airtime: 56.6 ms  |  Sensibilidad: -123.0 dBm
+  Batería: 13320.0 J  (100.0% capacidad  |  día 0 de vida)
+============================================================
+
+--- Estadísticas de Paquetes (Raw LoRa PHY) ---
+Paquetes enviados     : 30428
+Paquetes recibidos    : 14629
+PDR                   : 48.08 %
+Tasa de colisión      : 32.36 %
+Bajo sensibilidad     : 0.00 %
+
+--- Estadísticas de Energía (por nodo, 3600.00 s) ---
+Avg consumido/nodo    : 1.19309 J
+Desv. estándar        : 0.01790 J
+Min / Max             : 1.17696 / 1.25232 J
+Tasa diaria estimada  : 28.63418 J/día
+Vida útil estimada    : 465.2 días
+Nodos agotados        : 0
+============================================================
+
+SUMMARY,HB60,7,1,60,500,30428,14629,48.0774,32.3649,1.1931,0.0179,28.6342,465.2,0,100.00
+CSV por nodo: energy_raw_HB60.csv
+

@@ -1,0 +1,26 @@
+
+============================================================
+  LoRa RAW — Config HB150  |  SF7  |  1 GW  |  150 s heartbeat  |  500 nodos
+  Airtime: 56.6 ms  |  Sensibilidad: -123.0 dBm
+  Batería: 13320.0 J  (100.0% capacidad  |  día 0 de vida)
+============================================================
+
+--- Estadísticas de Paquetes (Raw LoRa PHY) ---
+Paquetes enviados     : 12428
+Paquetes recibidos    : 9307
+PDR                   : 74.89 %
+Tasa de colisión      : 14.63 %
+Bajo sensibilidad     : 0.00 %
+
+--- Estadísticas de Energía (por nodo, 3600.00 s) ---
+Avg consumido/nodo    : 0.51488 J
+Desv. estándar        : 0.01790 J
+Min / Max             : 0.49876 / 0.57411 J
+Tasa diaria estimada  : 12.35722 J/día
+Vida útil estimada    : 1077.9 días
+Nodos agotados        : 0
+============================================================
+
+SUMMARY,HB150,7,1,150,500,12428,9307,74.8874,14.6283,0.5149,0.0179,12.3572,1077.9,0,100.00
+CSV por nodo: energy_raw_HB150.csv
+

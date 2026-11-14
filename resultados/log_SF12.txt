@@ -1,0 +1,26 @@
+
+============================================================
+  LoRa RAW — Config SF12  |  SF12  |  1 GW  |  300 s heartbeat  |  500 nodos
+  Airtime: 1318.9 ms  |  Sensibilidad: -137.0 dBm
+  Batería: 13320.0 J  (100.0% capacidad  |  día 0 de vida)
+============================================================
+
+--- Estadísticas de Paquetes (Raw LoRa PHY) ---
+Paquetes enviados     : 6428
+Paquetes recibidos    : 491
+PDR                   : 7.64 %
+Tasa de colisión      : 80.90 %
+Bajo sensibilidad     : 0.00 %
+
+--- Estadísticas de Energía (por nodo, 3600.00 s) ---
+Avg consumido/nodo    : 5.69273 J
+Desv. estándar        : 0.41740 J
+Min / Max             : 5.31679 / 7.07351 J
+Tasa diaria estimada  : 136.62542 J/día
+Vida útil estimada    : 97.5 días
+Nodos agotados        : 0
+============================================================
+
+SUMMARY,SF12,12,1,300,500,6428,491,7.6385,80.8961,5.6927,0.4174,136.6254,97.5,0,100.00
+CSV por nodo: energy_raw_SF12.csv
+

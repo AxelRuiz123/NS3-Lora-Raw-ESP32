@@ -1,0 +1,26 @@
+
+============================================================
+  LoRa RAW — Config SF9  |  SF9  |  1 GW  |  300 s heartbeat  |  500 nodos
+  Airtime: 185.3 ms  |  Sensibilidad: -129.0 dBm
+  Batería: 13320.0 J  (100.0% capacidad  |  día 0 de vida)
+============================================================
+
+--- Estadísticas de Paquetes (Raw LoRa PHY) ---
+Paquetes enviados     : 6428
+Paquetes recibidos    : 3832
+PDR                   : 59.61 %
+Tasa de colisión      : 23.74 %
+Bajo sensibilidad     : 0.00 %
+
+--- Estadísticas de Energía (por nodo, 3600.00 s) ---
+Avg consumido/nodo    : 0.84006 J
+Desv. estándar        : 0.05866 J
+Min / Max             : 0.78723 / 1.03409 J
+Tasa diaria estimada  : 20.16134 J/día
+Vida útil estimada    : 660.7 días
+Nodos agotados        : 0
+============================================================
+
+SUMMARY,SF9,9,1,300,500,6428,3832,59.6142,23.7399,0.8401,0.0587,20.1613,660.7,0,100.00
+CSV por nodo: energy_raw_SF9.csv
+

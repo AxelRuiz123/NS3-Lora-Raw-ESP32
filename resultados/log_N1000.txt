@@ -1,0 +1,26 @@
+
+============================================================
+  LoRa RAW — Config N1000  |  SF7  |  1 GW  |  300 s heartbeat  |  1000 nodos
+  Airtime: 56.6 ms  |  Sensibilidad: -123.0 dBm
+  Batería: 13320.0 J  (100.0% capacidad  |  día 0 de vida)
+============================================================
+
+--- Estadísticas de Paquetes (Raw LoRa PHY) ---
+Paquetes enviados     : 12823
+Paquetes recibidos    : 9552
+PDR                   : 74.49 %
+Tasa de colisión      : 14.07 %
+Bajo sensibilidad     : 0.00 %
+
+--- Estadísticas de Energía (por nodo, 3600.00 s) ---
+Avg consumido/nodo    : 0.28819 J
+Desv. estándar        : 0.01670 J
+Min / Max             : 0.27269 / 0.36688 J
+Tasa diaria estimada  : 6.91664 J/día
+Vida útil estimada    : 1925.8 días
+Nodos agotados        : 0
+============================================================
+
+SUMMARY,N1000,7,1,300,1000,12823,9552,74.4911,14.0685,0.2882,0.0167,6.9166,1925.8,0,100.00
+CSV por nodo: energy_raw_N1000.csv
+
